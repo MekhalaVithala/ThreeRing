@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.summary      = "A short description of ThreeRingControl."
   s.description  = <<-DESC
                    DESC
-  s.homepage     = "http://EXAMPLE/ThreeRingControl"
+  s.homepage     = "https://github.com/MekhalaVithala/ThreeRing"
   s.license      = "MIT (example)"
   s.author             = { "Mekhala Vithala" => "mekhala.vithala@bottlerocketstudios.com" }
   s.platform     = :ios, "10.0"
