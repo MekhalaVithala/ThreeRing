@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
 
   s.name         = 'ThreeRingControl'
   s.version      = '1.0.0'
-  s.summary      = 'A short description of ThreeRingControl.'
+  s.summary      = 'ThreeRingControl.'
   s.homepage     = 'https://github.com/MekhalaVithala/ThreeRing'
   s.license      = { :type => 'MIT' }
-  s.author             = { 'Mekhala Vithala' => 'mekhala.vithala@bottlerocketstudios.com' }
+  s.author       = { 'Mekhala Vithala' => 'mekhala.vithala@bottlerocketstudios.com' }
   s.platform     = :ios, '10.0'
   s.source       = { :git => 'https://github.com/MekhalaVithala/ThreeRing.git', :tag => "#{s.version}" }
   s.source_files  = 'ThreeRing', 'ThreeRing/**/*.{h,m,swift}'
