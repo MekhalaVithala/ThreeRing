@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04153CB81E673B7C00E2CB65 /* threeRing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AFD3E51E672F5C00A6FDE8 /* threeRing.framework */; };
 		04AFD3EA1E672F5C00A6FDE8 /* threeRing.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFD3E81E672F5C00A6FDE8 /* threeRing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04AFD3F81E67306700A6FDE8 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD3F01E67306700A6FDE8 /* ActionViewController.swift */; };
+		04AFD3F91E67306700A6FDE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD3F11E67306700A6FDE8 /* AppDelegate.swift */; };
+		04AFD3FA1E67306700A6FDE8 /* CircularGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD3F21E67306700A6FDE8 /* CircularGradient.swift */; };
+		04AFD3FB1E67306700A6FDE8 /* Fanfare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD3F31E67306700A6FDE8 /* Fanfare.swift */; };
+		04AFD3FC1E67306700A6FDE8 /* RingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD3F41E67306700A6FDE8 /* RingLayer.swift */; };
+		04AFD3FD1E67306700A6FDE8 /* RingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD3F51E67306700A6FDE8 /* RingTip.swift */; };
+		04AFD3FE1E67306700A6FDE8 /* ThreeRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD3F61E67306700A6FDE8 /* ThreeRingView.swift */; };
+		04AFD3FF1E67306700A6FDE8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD3F71E67306700A6FDE8 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04AFD3E51E672F5C00A6FDE8 /* threeRing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = threeRing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AFD3E81E672F5C00A6FDE8 /* threeRing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = threeRing.h; sourceTree = "<group>"; };
 		04AFD3E91E672F5C00A6FDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AFD3F01E67306700A6FDE8 /* ActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		04AFD3F11E67306700A6FDE8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04AFD3F21E67306700A6FDE8 /* CircularGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularGradient.swift; sourceTree = "<group>"; };
+		04AFD3F31E67306700A6FDE8 /* Fanfare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fanfare.swift; sourceTree = "<group>"; };
+		04AFD3F41E67306700A6FDE8 /* RingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingLayer.swift; sourceTree = "<group>"; };
+		04AFD3F51E67306700A6FDE8 /* RingTip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingTip.swift; sourceTree = "<group>"; };
+		04AFD3F61E67306700A6FDE8 /* ThreeRingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeRingView.swift; sourceTree = "<group>"; };
+		04AFD3F71E67306700A6FDE8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04153CB81E673B7C00E2CB65 /* threeRing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +64,14 @@
 		04AFD3E71E672F5C00A6FDE8 /* threeRing */ = {
 			isa = PBXGroup;
 			children = (
+				04AFD3F01E67306700A6FDE8 /* ActionViewController.swift */,
+				04AFD3F11E67306700A6FDE8 /* AppDelegate.swift */,
+				04AFD3F21E67306700A6FDE8 /* CircularGradient.swift */,
+				04AFD3F31E67306700A6FDE8 /* Fanfare.swift */,
+				04AFD3F41E67306700A6FDE8 /* RingLayer.swift */,
+				04AFD3F51E67306700A6FDE8 /* RingTip.swift */,
+				04AFD3F61E67306700A6FDE8 /* ThreeRingView.swift */,
+				04AFD3F71E67306700A6FDE8 /* Utilities.swift */,
 				04AFD3E81E672F5C00A6FDE8 /* threeRing.h */,
 				04AFD3E91E672F5C00A6FDE8 /* Info.plist */,
 			);
@@ -95,6 +121,7 @@
 				TargetAttributes = {
 					04AFD3E41E672F5C00A6FDE8 = {
 						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AFD3FC1E67306700A6FDE8 /* RingLayer.swift in Sources */,
+				04AFD3FD1E67306700A6FDE8 /* RingTip.swift in Sources */,
+				04AFD3FE1E67306700A6FDE8 /* ThreeRingView.swift in Sources */,
+				04AFD3F91E67306700A6FDE8 /* AppDelegate.swift in Sources */,
+				04AFD3F81E67306700A6FDE8 /* ActionViewController.swift in Sources */,
+				04AFD3FA1E67306700A6FDE8 /* CircularGradient.swift in Sources */,
+				04AFD3FF1E67306700A6FDE8 /* Utilities.swift in Sources */,
+				04AFD3FB1E67306700A6FDE8 /* Fanfare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +276,7 @@
 		04AFD3EE1E672F5C00A6FDE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -252,6 +288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.myApp.threeRing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -259,6 +296,7 @@
 		04AFD3EF1E672F5C00A6FDE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -293,6 +331,7 @@
 				04AFD3EF1E672F5C00A6FDE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
