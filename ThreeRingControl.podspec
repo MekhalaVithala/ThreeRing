@@ -16,8 +16,7 @@ Pod::Spec.new do |s|
   s.author             = { 'Mekhala Vithala' => 'mekhala.vithala@bottlerocketstudios.com' }
   s.platform     = :ios, '10.0'
   s.source       = { :git => 'https://github.com/MekhalaVithala/ThreeRing.git', :tag => "#{s.version}" }
-  s.source_files  = 'ThreeRing', 'ThreeRing/**/*.{h,m,swift}”
-  s.pod_target_xconfig = { 'SWIFT_VERSION' => '3' }
+  s.source_files  = 'ThreeRing', 'ThreeRing/**/*.{h,m,swift}'
 
 
 end
